@@ -9,7 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-type user struct {
+type user struct {	//struct
 	Email    string
 	Password string
 }
